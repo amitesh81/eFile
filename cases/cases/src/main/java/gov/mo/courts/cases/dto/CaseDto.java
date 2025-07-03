@@ -1,6 +1,7 @@
 package gov.mo.courts.cases.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
         title = "Case",
         requiredProperties = {"caseId", "locationCode", "activityId", "activityDate"})
 public class CaseDto {
+    @Max(15)
     private String caseId;
     private String securityLevel;
     private String typeCode;
