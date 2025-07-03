@@ -17,19 +17,13 @@ import java.util.List;
 public class CasesController {
     private ICaseService caseService;
 
-    @GetMapping ("/test")
-    public String testApi() {
-        // This method will handle requests to get cases
-        return "Api Test";
-    }
-
-    @GetMapping ("/cases")
-    public List<Case> getCases() {
+    @GetMapping ("/getAllCasesByUserName")
+    public List<Case> getCases(String userName) {
         // This method will handle requests to get cases
         return null;
     }
-    @GetMapping ("/cases/{id}")
-    public Case getCaseById(@PathVariable Long id) {
+    @GetMapping ("/getCase/{id}")
+    public Case getCaseById(String caseNumber) {
         // This method will handle requests to get a case by its ID
         return new Case();
     }
@@ -38,13 +32,13 @@ public class CasesController {
         caseService.createCase(caseDto);
        return ResponseEntity.status(HttpStatus.CREATED).body(new EfileSubmissionResponseDto(HttpStatus.CREATED.toString(), HttpStatus.CREATED.getReasonPhrase()));
     }
-    @PatchMapping
-    public Case updateCase(Long id, Case updatedCase) {
+    @PatchMapping("/updateCase")
+    public Case updateCase(Long id, @RequestBody CaseDto caseDto) {
         // This method will handle requests to update an existing case
         return null;
     }
-    @DeleteMapping
-    public void deleteCase(Long id) {
+    @DeleteMapping("/deleteCase")
+    public void deleteCase(String caseNumber) {
         // This method will handle requests to delete a case
 
     }

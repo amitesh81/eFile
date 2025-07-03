@@ -1,18 +1,16 @@
 package gov.mo.courts.cases.model;
 
-import jakarta.persistence.Column;
+import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.time.LocalDate;
-
+import java.time.LocalDateTime;
+@MappedSuperclass
 @Getter
 @Setter
 @ToString
 public class MetaData {
-    @Column(updatable = false)
     private String activityId;
-    @Column(updatable = false)
-    private LocalDate activityDate;
+    private LocalDateTime activityDate;
 }

@@ -33,7 +33,10 @@ public class CaseMapper {
         caseObj.setStyle(dto.getStyle());
         caseObj.setLocationCode(dto.getLocationCode());
         caseObj.setOriginalCaseId(dto.getOriginalCaseId());
-        caseObj.setOriginalLocationCode(dto.getOriginalLocationCode());        // Map other fields as needed
+        caseObj.setOriginalLocationCode(dto.getOriginalLocationCode());
+        caseObj.setActivityId(dto.getActivityId());
+        caseObj.setActivityDate(dto.getActivityDate());
+        // Map other fields as needed
         return caseObj;
     }
 

@@ -22,7 +22,7 @@ public class CaseServiceImpl implements ICaseService {
                 "CaseDto cannot be null. Please provide valid case details."
             );
         }
-        Case caseEntity =CaseMapper.toEntity(caseDto, createDummyCase());
+        Case caseEntity =CaseMapper.toEntity(caseDto, new Case());
         Case savedCase = caseRepository.save(caseEntity);
     }
 

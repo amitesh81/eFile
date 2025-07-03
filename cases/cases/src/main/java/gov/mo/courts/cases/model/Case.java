@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "EFILE_CASE")
+@Table(name = "EFILE_CASES")
 @Getter @Setter
 @ToString
 @AllArgsConstructor
