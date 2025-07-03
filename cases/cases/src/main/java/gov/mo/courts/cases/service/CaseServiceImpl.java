@@ -5,11 +5,13 @@ import gov.mo.courts.cases.exception.CaseException;
 import gov.mo.courts.cases.mapper.CaseMapper;
 import gov.mo.courts.cases.model.Case;
 import gov.mo.courts.cases.repository.CaseRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
 @Service
+@AllArgsConstructor
 public class CaseServiceImpl implements ICaseService {
 
     private CaseRepository caseRepository;

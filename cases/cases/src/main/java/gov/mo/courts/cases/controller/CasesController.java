@@ -33,9 +33,9 @@ public class CasesController {
         // This method will handle requests to get a case by its ID
         return new Case();
     }
-    @PutMapping("/createCase")
+    @PostMapping("/createCase")
     public ResponseEntity<EfileSubmissionResponseDto> createCase(@RequestBody CaseDto caseDto) {
-        caseService.createCase(null);
+        caseService.createCase(caseDto);
        return ResponseEntity.status(HttpStatus.CREATED).body(new EfileSubmissionResponseDto(HttpStatus.CREATED.toString(), HttpStatus.CREATED.getReasonPhrase()));
     }
     @PatchMapping
