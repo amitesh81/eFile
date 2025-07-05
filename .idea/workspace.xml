@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a6bfe17-2076-4c4f-ba28-d08668b4da9a" name="Changes" comment="docker compose">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/src/main/resources/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cases/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cases/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parties/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parties/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parties/src/main/java/gov/mo/courts/parties/PartiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parties/src/main/java/gov/mo/courts/parties/PartiesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parties/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/parties/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\ada\workspaces\cases" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PartiesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gov.mo.courts.parties.PartiesApplication" />
+      <module name="parties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.mo.courts.parties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PartiesApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -132,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751689580200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="docker compose">
+      <option name="closed" value="true" />
+      <created>1751690278913</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751690278913</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
