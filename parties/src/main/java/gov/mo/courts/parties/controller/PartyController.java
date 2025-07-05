@@ -19,6 +19,11 @@ public class PartyController {
         // This method will handle requests to get Partys
         return null;
     }
+    @GetMapping ("/testPartyApi")
+    public String testPartyApi() {
+        // This method will handle requests to get a Party by its ID
+        return "Success test party api";
+    }
     @GetMapping ("/getParty/{id}")
     public Party getPartyById(String pidm) {
         // This method will handle requests to get a Party by its ID
