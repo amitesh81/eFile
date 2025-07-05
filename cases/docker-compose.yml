@@ -4,21 +4,13 @@ services:
     container_name: cases-ms
     ports:
       - "8080:8080"
-    deploy:
-      resources:
-        limits:
-          memory: 700M
     networks:
       - efileCasesNetwork
   parties:
     image: "amitesh81/parties:v1"
     container_name: parties-ms
     ports:
-      - "8090:8090"
-    deploy:
-      resources:
-        limits:
-          memory: 700M
+      - "9090:8080"
     networks:
       - efileCasesNetwork
 networks:

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a6bfe17-2076-4c4f-ba28-d08668b4da9a" name="Changes" comment="docker compose">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cases/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parties/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parties/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parties/src/main/java/gov/mo/courts/parties/PartiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parties/src/main/java/gov/mo/courts/parties/PartiesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parties/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/parties/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.PartiesApplication.executor&quot;: &quot;Run&quot;,
     &quot;Maven.cases [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.parties [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -164,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751690278913</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="docker compose">
+      <option name="closed" value="true" />
+      <created>1751693912339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751693912339</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

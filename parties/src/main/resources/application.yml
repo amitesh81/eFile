@@ -7,7 +7,7 @@ spring:
     password: ''
     driver-class-name: org.h2.Driver
 server:
-  port:8090
+  port:8080
 h2:
   console:
     enabled: true
