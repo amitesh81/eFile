@@ -1,0 +1,5 @@
+gov\mo\courts\parties\controller\PartyController.class
+gov\mo\courts\parties\dto\EfileSubmissionResponseDto.class
+gov\mo\courts\parties\dto\PartyDto.class
+gov\mo\courts\parties\model\Party.class
+gov\mo\courts\parties\PartiesApplication.class

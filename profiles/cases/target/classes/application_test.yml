@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "test"
+
+contact:
+  name: "Amitesh Jha - Test"
+  email:
+    "personal": "jha.amitesh@gmail.com"
+    "work": "amitesh81@gmail.com"
+  phone:
+    - 9083381003
+    - 5732348890

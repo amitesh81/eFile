@@ -1,0 +1,18 @@
+spring:
+  application:
+    name:parties
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: ''
+    driver-class-name: org.h2.Driver
+server:
+  port:9090
+h2:
+  console:
+    enabled: true
+jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
+  database-platform: org.hibernate.dialect.H2Dialect

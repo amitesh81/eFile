@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8144c421-f4d5-4b3c-a022-a5bd6d8a847d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../managed-config/cases/src/main/java/gov/mo/courts/cases/dto/ContactDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/src/main/resources/application_dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/src/main/resources/application_test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amitesh81&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/amitesh81/eFile.git&quot;,
+    &quot;accountId&quot;: &quot;2161798b-60df-4d63-8833-e9a5ccc1046d&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="showDialogWithAdvancedSettings" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2zT67t17tNJvmFfk4k9IQI1nTJj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CasesApplication.executor": "Run",
+    "Application.PartiesApplication.executor": "Run",
+    "Maven.cases [clean,install].executor": "Run",
+    "Maven.cases [clean].executor": "Run",
+    "Maven.cases [install].executor": "Run",
+    "Maven.parties [clean,install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/ada/workspaces/profiles",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.CasesApplication">
+    <configuration name="CasesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="prod" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="gov.mo.courts.cases.CasesApplication" />
+      <module name="cases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.mo.courts.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartiesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gov.mo.courts.parties.PartiesApplication" />
+      <module name="parties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.mo.courts.parties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CasesApplication" />
+        <item itemvalue="Application.PartiesApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8144c421-f4d5-4b3c-a022-a5bd6d8a847d" name="Changes" comment="" />
+      <created>1751742552254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751742552254</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/profiles$CasesApplication.ic" NAME="CasesApplication Coverage Results" MODIFIED="1751751921915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>gov.mo.courts.cases.*</FILTER>
+    </SUITE>
+  </component>
+</project>

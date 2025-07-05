@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS "EFILE_CASES"
+(
+  "CASE_INFO_NO"            VARCHAR(30)     PRIMARY KEY,
+  "CASE_ID"                 VARCHAR(15),
+  "SECURITY_LEVEL"          VARCHAR(1)      NOT NULL,
+  "TYPE_CODE"               VARCHAR(2)      NOT NULL,
+  "STYLE"                   VARCHAR(50)     NOT NULL,
+  "LOCATION_CODE"           VARCHAR(2)      NOT NULL,
+  "ORIGINAL_CASE_ID"        VARCHAR(15),
+  "ORIGINAL_LOCATION_CODE"  VARCHAR(2),
+  "ACTIVITY_ID"             VARCHAR(255)    NOT NULL,
+  "ACTIVITY_DATE"           DATE            NOT NULL,
+  "SEALED_LEVEL"            VARCHAR(1)      DEFAULT '1' NOT NULL
+);
