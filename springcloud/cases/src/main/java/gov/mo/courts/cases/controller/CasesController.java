@@ -1,10 +1,12 @@
 package gov.mo.courts.cases.controller;
 
 import gov.mo.courts.cases.dto.CaseDto;
+import gov.mo.courts.cases.dto.ContactDto;
 import gov.mo.courts.cases.dto.EfileSubmissionResponseDto;
 import gov.mo.courts.cases.model.Case;
 import gov.mo.courts.cases.service.ICaseService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,10 +14,17 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@AllArgsConstructor
 @RequestMapping(path="/api", produces = "application/json")
 public class CasesController {
+    @Autowired
     private ICaseService caseService;
+    @Autowired
+    private ContactDto contactDto;
+
+    @GetMapping ("/contact")
+    public ResponseEntity<ContactDto> getContact() {
+        return ResponseEntity.status(HttpStatus.OK).body(contactDto);
+    }
 
     @GetMapping ("/getAllCasesByUserName")
     public List<Case> getCases(String userName) {
